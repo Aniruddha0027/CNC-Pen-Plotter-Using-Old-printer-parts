@@ -11,3 +11,29 @@ Architects & Designers (Floor plans/Blueprints)
 Artists (Generative art & Mandalas)
 
 Signature Automation
+1. Design & G-Code Generation
+Inkscape (Vector Editor): The main software to create your art.
+
+Download Inkscape (Latest Stable Version)
+
+4xiDraw Extension (Plotter Control): This is a specialized extension for Inkscape that converts your drawings into plotter-friendly G-code.
+
+Download 4xiDraw Extension for Inkscape
+
+Note: Place the contents into your Inkscape extensions folder.
+
+2. Machine Control (The "Driver")
+Universal Gcode Sender (UGS): This software sends the instructions from your computer to the Arduino.
+
+Download UGS Platform (Windows/Mac/Linux)
+
+Tip: Use the "Platform" version for a better visual interface.
+
+3. Firmware & Arduino Tools
+GRBL Firmware (v1.1): The "brain" that runs on your Arduino Uno.
+
+Download GRBL Source Code
+
+Arduino IDE: Needed if you ever want to re-flash or customize the firmware.
+
+Download Arduino IDE Official
